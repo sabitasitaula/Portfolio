@@ -71,8 +71,9 @@ main{
     font-weight: 2px;
 }
 .content {
-    margin-left: -30px;
+    margin-left: 80px;
     position: absolute;
+    text-align: left;
     margin-top: 80px;
     height: 500px;
     width: 400px;
