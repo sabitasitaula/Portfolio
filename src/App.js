@@ -1,22 +1,23 @@
-import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
+import Router from "./routes/Routes";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        {/* <Routes>
-              <Route path="/" element={<Banner />} />
-              <Route path="/project" element={<ProjectWrapper />} />
-              <Route path="/contact" element={<Contact />} />
-          </Routes> */}
-        </BrowserRouter>,
+        <Routes>
+          {Router.map((route) => (
+            <Route path={route.path} element={<route.element />} />
+          ))}
+          {/* <Route path="/" element={<Banner />} />
+          <Route path="/project" element={<ProjectWrapper />} />
+          <Route path="/contact" element={<Contact />} /> */}
+        </Routes>
+      </BrowserRouter>
+      ,
     </div>
   );
 }
