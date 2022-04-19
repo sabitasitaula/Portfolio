@@ -1,0 +1,110 @@
+#contact{
+    text-align: center;
+    margin-bottom: 50px;
+    /* padding: 20px 60px 30px 40px; */
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.contactme{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.leftDiv{
+    margin-left: 80px;
+    text-align: center;
+}
+.leftDiv div{
+    margin-bottom: 35px;
+}
+.fas{
+    font-size: 23px;
+    /* color: rgba(56, 55, 55, 0.744); */
+    color:rgba(86, 9, 56, 0.836)
+}
+.veticalLine{
+    border-left: 3px solid gray;
+    height: 375px;
+}
+.rightDiv{
+    margin-right: 45px;
+}
+.rightDiv h4{
+    text-align: left;
+}
+.rightDiv p{
+    text-align: justify;
+}
+
+.form{
+    background-color: rgba(196, 146, 177, 0.248);
+    padding-bottom: 25px;
+    border-radius: 35px;
+}
+
+.form input{
+    width:45%;
+    height: 6vh;
+    border-radius: 15px;
+    border-style: hidden;
+    text-align: center;
+    margin-top: 15px;
+}
+.form p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: red;
+    font-size: small;
+}
+.form textarea{
+    width:25vw;
+    height: 10vh;
+    border-radius: 20px;
+    border-style: hidden;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 18px;
+
+}
+.submit{
+    color: white;
+    background-color: rgba(86, 9, 56, 0.836);
+}
+
+@media screen and (max-width: 768px) {
+    .contactme{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .leftDiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2vw;
+    }
+    .leftDiv div{
+        margin-bottom: 10px;
+    }
+    .veticalLine{
+        border-left: none;
+        border-bottom: 3px solid gray;
+        height: 35px;
+    }
+    .rightDiv h4, .rightDiv p{
+        text-align: center;
+    }
+    .rightDiv{
+        margin-right: 0px;
+    }
+    .form input{
+        width:80%;
+        height: 6vh;
+    }
+    .form textarea{
+        width:80%;
+        height: 10vh;
+      
+    
+    }
+}
