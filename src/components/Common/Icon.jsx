@@ -1,6 +1,7 @@
 import React from "react";
 
-function Icon({icon, onClick}) {
+function Icon({ icon, onClick }) {
+  
   return (
     <div>
       <div>
