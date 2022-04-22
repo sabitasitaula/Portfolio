@@ -10,7 +10,8 @@ const Project = () => {
   useEffect(() => {
     setIsLoading(true);
     axios
-      .get("https://api.github.com/users/sabitasitaula/repos?per_page=6")
+      // .get("https://api.github.com/users/sabitasitaula/repos?per_page=6")
+      .get("http://localhost:4000/project/6")
       .then((res) => {
         setIsLoading(false);
         setProject(res.data);
@@ -29,9 +30,9 @@ const Project = () => {
             <Card
               imageUrl={covidapp}
               altText="covidapp"
-              cardTitle={myproject.name}
-              cardText={new Date(myproject.pushed_at).toDateString()}
-              gitUrl={myproject.html_url}
+              cardTitle={myproject.projectTitle}
+              cardText={new Date(myproject.projectDate).toDateString()}
+              gitUrl={myproject.projectLink}
             />
           );
         })}

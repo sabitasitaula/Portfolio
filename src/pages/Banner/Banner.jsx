@@ -1,9 +1,14 @@
 import React from "react";
 import Icon from "../../components/Common/Icon";
+import Contact from "../Contact/Contact";
+import ProjectWrapper from "../Projects/ProjectWrapper";
 import "./Banner.css";
 import Type from "./Type";
+import { useNavigate } from "react-router";
 
 const Banner = () => {
+  const navigate = useNavigate();
+  
   return (
     <div>
       <main>
@@ -31,10 +36,12 @@ const Banner = () => {
           <h1>Sitaula </h1>
           <p> Hi, I am a <span><Type /></span>lives in Kathmandu, Nepal.</p>
 
-          <button>Hire Me</button>
+          <button className="hireMeButton" onClick={()=>navigate("/contact")}>Hire Me</button>
         </div>
-        <div className="icon"></div>
+        
       </main>
+      <ProjectWrapper />
+        <Contact />
     </div>
   );
 };

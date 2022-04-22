@@ -103,7 +103,11 @@ main{
     background-color: #7462E1;
     color: white;
     border-style: hidden;
-    /* margin-left: -6rem; */
+    position: relative;
+    z-index: 3;
+  }
+  .content button:hover{
+    background-color: #d50b6daf;
   }
 
   @media screen and (max-width: 820px) {

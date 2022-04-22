@@ -4,6 +4,7 @@ import Icon from "../../components/Common/Icon";
 import Input from "../../components/Common/Input";
 import TextArea from "../../components/Common/TextArea";
 import "./Contact.css";
+import axios from "axios";
 
 function Contact() {
   const initialValues = { fullName: "", email: "", textarea: "" };
@@ -22,6 +23,14 @@ function Contact() {
     e.preventDefault();
     setFormErrors(validate(formValues));
     if (Object.keys(formErrors).length === 0) {
+      axios
+        .post("http://localhost:4000/contact/", {
+          fullName: formValues.fullName,
+          email: formValues.email,
+          message: formValues.textarea,
+        })
+        .then((res) => console.log(res))
+        .catch((err) => console.log(err));
       setFormValues(initialValues);
     }
   };

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Icon from "../Common/Icon";
 import "./NavBar.css";
+import logo from "../../assets/images/logo.PNG"
 
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -22,7 +23,8 @@ const NavBar = () => {
     <>
       <header className="HomePageDiv sticky-top">
         <nav>
-          <h3>Sabita</h3>
+          {/* <h3>Sabita</h3> */}
+          <h3><i class="fab fa-scribd">abita</i></h3>
           <div className={toggleMenu ? "navLinks toggleNav" : "navLinks"}>
             <Link to="/" onClick={toggleMenuBar}>
               Home
