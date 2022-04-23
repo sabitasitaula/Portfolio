@@ -41,34 +41,19 @@ main{
 .rightCircle a{
   z-index: 2;
 }
-
-.fa-instagram{
-    position: absolute;
-    color: white; 
-    font-size: 22px;
-    margin-left: 50px;
-    top:340px;
-    left:200px;
-    font-weight: -16px;
+.bannerIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:2rem;
+  position: absolute;
+  bottom:2.5rem;
+  right: 18rem;
 }
-.fa-facebook{
-    position: absolute;
-    color: white; 
-    font-size: 22px;
-    margin-left: 50px;
-    top:400px;
-    left:200px;
-    font-weight: 2px;
-    
-}
-.fa-linkedin{
-    position: absolute;
-    color: white; 
-    font-size: 22px;
-    margin-left: 50px;
-    top:460px;
-    left:200px;
-    font-weight: 2px;
+.bannerIcon i {
+  color:white;
+  font-size: 1.75rem;
 }
 .content {
     margin-left: 80px;
@@ -115,35 +100,57 @@ main{
       display: none;
     }
     .rightCircle{
-      border-radius: 50%;
-      background-color:#7462E1;
-      height: 100vmax;
-      width: 100vmax;
-      position: absolute;
-      bottom: -20%;
-      right:-89%;
-      margin-left: 60%;
+      display: none;
+  }
+  .bannerIcon{
+    display: none;
+  }
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 6vw;
+  }
+  .content h1{
+    font-size: 14vw;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #453e6c;
+    
+  }
+  .content p{
+    font-size: 4vw;
+    text-align: center;
+
+  }
+  .content p span {
+    font-size: 4vw;
+    text-align: center;
+  }
   
+  .content button {
+    padding: 6px 10px;
+    background-color: #7462E1;
+    color: white;
+    border-style: hidden;
+    position: relative;
+    z-index: 3;
   }
     
    }
    @media screen and (max-width: 760px) {
+    
     .manDiv{
       display: none;
     }
     .rightCircle{
-      border-radius: 50%;
-      background-color:white;
-      height: 100vmax;
-      width: 100vmax;
-      position: absolute;
-      bottom: -30%;
-      right:-89%;
-      margin-left: 60%;
+      display: none;
   
   }
-  .rightCircle a .fab{
-    color:black !important;
+  .bannerIcon{
+    display: none;
   }
     
    }
