@@ -1,6 +1,7 @@
 import Banner from "../pages/Banner/Banner";
 import ProjectWrapper from "../pages/Projects/ProjectWrapper";
 import Contact from "../pages/Contact/Contact";
+import About from "../pages/About/About";
 
 const Routes = [
   {
@@ -14,6 +15,10 @@ const Routes = [
   {
     path: "/contact",
     element: Contact,
+  },
+  {
+    path: "/about",
+    element: About,
   },
 ];
 
