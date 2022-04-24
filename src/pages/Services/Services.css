@@ -1,0 +1,37 @@
+
+.myService{
+    color: rgba(136, 65, 202, 0.74);
+    font-weight: bold;
+}
+.frontEndDiv{
+    height: 20vh;
+    width: 44vw;
+    background-color: rgba(255, 0, 0, 0.334);
+     margin-top: 4rem;
+    margin-left: 5rem;
+}
+.backEndDiv{
+    height: 20vh;
+    width: 43.5vw;
+    background-color: rgba(0, 128, 0, 0.253);
+    float: right;
+    margin-right: 5rem;
+}
+.uiDiv{
+    height: 20vh;
+    width: 44vw;
+    background-color: rgba(71, 71, 233, 0.229);
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+@media screen and (max-width: 768px) {
+    .frontEndDiv{
+        margin: 2rem 1rem 0rem 1.5rem;
+    }
+    .backEndDiv{
+        margin:0.5rem 1rem 0.8rem 2.5rem;
+    }
+    .uiDiv{
+        margin: 10.5rem 1rem 0rem 1.5rem;
+    }
+}
