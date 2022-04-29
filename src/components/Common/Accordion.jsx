@@ -1,6 +1,6 @@
 import React from "react";
 
-const Accordion = () => {
+const Accordion = ({ header1, description1, header2, description2 }) => {
   return (
     <div>
       <div class="accordion" id="accordionExample">
@@ -14,24 +14,15 @@ const Accordion = () => {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              <strong className="companyName">Sarobar Technology Pvt. Ltd.</strong>
+              <strong className="companyName">{header1}</strong>
             </button>
           </h2>
           <div
             id="collapseOne"
             class="accordion-collapse collapse show"
             aria-labelledby="headingOne"
-            // data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
-              I have done 3 month <strong>React Developer Internship</strong> at Sarobar
-              Technology Pvt. Ltd. where I am involved in customer dashboard of
-              logistics management system (React Js) and designed and developed
-              user interface using material UI. This application has customer
-              authentication using JWT token. We had Fetched and posted data to
-              backend API using axios and Embedded navigation using react router
-              DOM.
-            </div>
+            <div class="accordion-body">{description1}</div>
           </div>
         </div>
         <div class="accordion-item">
@@ -44,24 +35,18 @@ const Accordion = () => {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              <strong className="companyName">Optimum Futurist</strong>
+              <strong className="companyName">{header2}</strong>
             </button>
           </h2>
           <div
             id="collapseTwo"
             class="accordion-collapse collapse show"
             aria-labelledby="headingTwo"
-            // data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
-              I am currently doing 3 month <strong>Software Engineering Trainee</strong> at
-              Optimum Futurist where I am learning about the whole lifecycle of
-              Software Development process.
-            </div>
+            <div class="accordion-body">{description2}</div>
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
