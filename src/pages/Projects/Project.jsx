@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 // import covidapp from "../../assets/images/covidapp.PNG";
-import git1 from "../../assets/images/githubbb.jpg";
+import git1 from "../../assets/images/lady1.jpg";
 import git from "../../assets/images/git.jpg";
 import Card from "../../components/Common/Card";
 
