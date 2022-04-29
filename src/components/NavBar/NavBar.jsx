@@ -30,6 +30,9 @@ const NavBar = () => {
             <Link to="/about" onClick={toggleMenuBar}>
               About
             </Link>
+            <Link to="/services" onClick={toggleMenuBar}>
+              Services
+            </Link>
             <Link to="/project" onClick={toggleMenuBar}>
               Projects
             </Link>

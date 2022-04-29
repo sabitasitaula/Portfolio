@@ -2,6 +2,8 @@ import React from "react";
 import "../About/About.css";
 import Icon from "../../components/Common/Icon";
 import AboutCard from "../../components/Common/AboutCard";
+import Accordion from "../../components/Common/Accordion";
+import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
@@ -37,11 +39,7 @@ const About = () => {
         >
           <Icon icon="fab fa-linkedin" />
         </a>
-        <a
-          href="https://github.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/" target="_blank" rel="noreferrer">
           <Icon icon="fab fa-github" />
         </a>
       </div>
@@ -77,9 +75,13 @@ const About = () => {
         </div>
       </div>
 
-      <div>
+      <div className="experienceClass">
         <h1>Experience</h1>
+        <div className="accordionClass">
+          <Accordion />
+        </div>
       </div>
+    <Footer />
     </div>
   );
 };

@@ -5,6 +5,7 @@ import Input from "../../components/Common/Input";
 import TextArea from "../../components/Common/TextArea";
 import "./Contact.css";
 import axios from "axios";
+import Footer from "../Footer/Footer";
 
 function Contact() {
   const initialValues = { fullName: "", email: "", textarea: "" };
@@ -128,6 +129,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

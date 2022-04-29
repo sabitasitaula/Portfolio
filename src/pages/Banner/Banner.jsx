@@ -1,10 +1,9 @@
 import React from "react";
 import Icon from "../../components/Common/Icon";
-import Contact from "../Contact/Contact";
-import ProjectWrapper from "../Projects/ProjectWrapper";
 import "./Banner.css";
 import Type from "./Type";
 import { useNavigate } from "react-router";
+import About from "../About/About";
 
 const Banner = () => {
   const navigate = useNavigate();
@@ -55,8 +54,7 @@ const Banner = () => {
           </button>
         </div>
       </main>
-      <ProjectWrapper />
-      <Contact />
+      <About />
     </div>
   );
 };

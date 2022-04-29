@@ -5,6 +5,10 @@
     border-radius: 6px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
+#contact h1{
+    color: rgba(142, 61, 217, 0.76);
+    font-weight: bold;
+}
 .contactme{
     display: flex;
     justify-content: space-between;
@@ -37,7 +41,8 @@
 }
 
 .form{
-    background-color: rgba(196, 146, 177, 0.248);
+    /* background-color: rgba(196, 146, 177, 0.248); */
+    background-color:rgba(185, 158, 211, 0.367);
     padding-bottom: 25px;
     border-radius: 35px;
 }

@@ -1,6 +1,8 @@
 #projects h1{
     margin: 35px 80px;
     text-align: center;
+    color: rgba(142, 61, 217, 0.76);
+    font-weight: bold;
 }
 .myproject{
     display: flex;

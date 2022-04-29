@@ -88,3 +88,24 @@
     background-image: url('../../assets/images/saraswati2.png');
     background-size: cover;
 }
+
+.experienceClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experienceClass h1{
+    color: rgba(136, 65, 202, 0.74);
+
+    font-weight: bold;
+}
+.accordionClass{
+    width:70vw;
+    border: 1px solid black;
+    
+}
+.companyName{
+    color: #6e5cd4d7;
+    
+}

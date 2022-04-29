@@ -72,8 +72,11 @@ nav a{
       gap:10px;
       min-height: 65px;
       position: relative;
+      top: 155px;
       margin-top: 65px;
       width: 100vw;
+      background: #520721;
+      /* opacity: 0.8; */
   }
   .toggleNav a{
       text-align: center;
@@ -85,6 +88,6 @@ header.sticky{
     background-color: #f9f9f9;
     padding: 2px 0px;
     width: auto;
-    box-shadow: 0 5px 20px;
+    box-shadow: 0 1px 10px;
     
 }

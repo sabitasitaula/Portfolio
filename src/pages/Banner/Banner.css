@@ -95,7 +95,7 @@ main{
     background-color: #d50b6daf;
   }
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 825px) {
     .manDiv{
       display: none;
     }
@@ -107,10 +107,14 @@ main{
   }
   .content{
     display: flex;
+    width: 100%;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    font-size: 6vw;
+    align-items: center;
+    margin: 0;
+    margin-top: 3.7rem;
+    padding: 0;
+    padding-top: 7rem;
   }
   .content h1{
     font-size: 14vw;
@@ -121,12 +125,12 @@ main{
     
   }
   .content p{
-    font-size: 4vw;
+    font-size: 6vw;
     text-align: center;
 
   }
   .content p span {
-    font-size: 4vw;
+    font-size: 6vw;
     text-align: center;
   }
   
@@ -137,6 +141,8 @@ main{
     border-style: hidden;
     position: relative;
     z-index: 3;
+    font-size: 2.5rem;
+    margin-top: 2rem;
   }
     
    }
@@ -151,6 +157,29 @@ main{
   }
   .bannerIcon{
     display: none;
+  }
+  .content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 7rem;
+  }
+  .content h1{
+    font-size: 4rem;
+  }
+  .content p{
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  .content p span{
+    font-size: 2.4rem;
+  }
+  .hireMeButton{
+    font-size: 2rem;
   }
     
    }
