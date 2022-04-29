@@ -4,6 +4,7 @@ import Icon from "../Common/Icon";
 import "./NavBar.css";
 
 const NavBar = () => {
+  const [activeLink, activeLinkSet] = useState("home");
   const [toggleMenu, setToggleMenu] = useState(false);
   const toggleMenuBar = () => {
     if (window.innerWidth <= 768) {
@@ -22,21 +23,58 @@ const NavBar = () => {
     <>
       <header className="HomePageDiv sticky-top">
         <nav>
-          <h3><i class="fab fa-scribd">abita</i></h3>
+          <h3>
+            <i class="fab fa-scribd">abita</i>
+          </h3>
           <div className={toggleMenu ? "navLinks toggleNav" : "navLinks"}>
-            <Link to="/" onClick={toggleMenuBar}>
+            <Link
+              to="/"
+              className={activeLink === "home" ? "active" : null}
+              onClick={() => {
+                toggleMenuBar();
+                activeLinkSet("home");
+              }}
+            >
               Home
             </Link>
-            <Link to="/about" onClick={toggleMenuBar}>
+            <Link
+              to="/about"
+              className={activeLink === "about" ? "active" : null}
+              onClick={() => {
+                toggleMenuBar();
+                activeLinkSet("about");
+              }}
+            >
               About
             </Link>
-            <Link to="/services" onClick={toggleMenuBar}>
+            <Link
+              to="/services"
+              className={activeLink === "services" ? "active" : null}
+              onClick={() => {
+                toggleMenuBar();
+                activeLinkSet("services");
+              }}
+            >
               Services
             </Link>
-            <Link to="/project" onClick={toggleMenuBar}>
+            <Link
+              to="/project"
+              className={activeLink === "project" ? "active" : null}
+              onClick={() => {
+                toggleMenuBar();
+                activeLinkSet("project");
+              }}
+            >
               Projects
             </Link>
-            <Link to="/contact" onClick={toggleMenuBar}>
+            <Link
+              to="/contact"
+              className={activeLink === "contact" ? "active" : null}
+              onClick={() => {
+                toggleMenuBar();
+                activeLinkSet("contact");
+              }}
+            >
               Contact
             </Link>
           </div>

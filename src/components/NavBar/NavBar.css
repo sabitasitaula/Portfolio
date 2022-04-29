@@ -26,6 +26,11 @@ nav a{
     font-size: 17px;
    
 }
+.HomePageDiv nav div .active{
+    color: #210ba0;
+    text-decoration:underline ;
+    font-size: 17px;
+}
 .menubar{
     display: none;
 }

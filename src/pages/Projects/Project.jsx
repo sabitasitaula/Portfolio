@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import covidapp from "../../assets/images/covidapp.PNG";
+// import covidapp from "../../assets/images/covidapp.PNG";
+import git1 from "../../assets/images/githubbb.jpg";
+import git from "../../assets/images/git.jpg";
 import Card from "../../components/Common/Card";
 
 const Project = () => {
@@ -25,10 +27,13 @@ const Project = () => {
         </div>
       )}
       {!isLoading &&
-        project.map((myproject) => {
+        project.map((myproject,index) => {
           return (
             <Card
-              imageUrl={covidapp}
+              // imageUrl={github}
+              imageUrl={
+                index % 2 === 0 ? git1 : git
+              }
               altText="covidapp"
               cardTitle={myproject.projectTitle}
               cardText={new Date(myproject.projectDate).toDateString()}

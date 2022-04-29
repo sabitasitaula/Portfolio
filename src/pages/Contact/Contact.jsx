@@ -6,6 +6,8 @@ import TextArea from "../../components/Common/TextArea";
 import "./Contact.css";
 import axios from "axios";
 import Footer from "../Footer/Footer";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
   const initialValues = { fullName: "", email: "", textarea: "" };
@@ -15,7 +17,6 @@ function Contact() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
-    console.log(formValues);
   };
   const checkValidate = () => {
     setFormErrors(validate(formValues));
@@ -23,6 +24,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormErrors(validate(formValues));
+    console.log(formErrors)
     if (Object.keys(formErrors).length === 0) {
       axios
         .post("http://localhost:4000/contact/", {
@@ -30,7 +32,8 @@ function Contact() {
           email: formValues.email,
           message: formValues.textarea,
         })
-        .then((res) => console.log(res))
+        .then((res) => toast('Message send success'))
+        // .then((res) => console.log(res))
         .catch((err) => console.log(err));
       setFormValues(initialValues);
     }
@@ -84,7 +87,7 @@ function Contact() {
             </p>
           </div>
           <div>
-            <form className="form" method="POST">
+            <form className="form" onSubmit={handleSubmit}>
               <Input
                 type="text"
                 className="name"
@@ -123,8 +126,10 @@ function Contact() {
                 type="submit"
                 value="Send"
                 className="submit"
-                onClick={handleSubmit}
+                
               />
+
+             <ToastContainer></ToastContainer>
             </form>
           </div>
         </div>
