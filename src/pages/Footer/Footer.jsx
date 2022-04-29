@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
       <div className='footerClass'>
-          Copyright &copy; 2020 All Rights Reserved | Sabita Sitaula
+          Copyright &copy; 2022 All Rights Reserved | Sabita Sitaula
     </div>
   )
 }

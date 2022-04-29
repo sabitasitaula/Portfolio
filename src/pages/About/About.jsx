@@ -78,10 +78,23 @@ const About = () => {
       <div className="experienceClass">
         <h1>Experience</h1>
         <div className="accordionClass">
-          <Accordion />
+          <Accordion
+            header1="Sarobar Technology Pvt. Ltd."
+            description1="I have done 3 monthReact Developer Internship at Sarobar
+              Technology Pvt. Ltd. where I am involved in customer dashboard of
+              logistics management system (React Js) and designed and developed
+              user interface using material UI. This application has customer
+              authentication using JWT token. We had Fetched and posted data to
+              backend API using axios and Embedded navigation using react router
+              DOM."
+            header2="Optimum Futurist"
+            description2="I am currently doing 3 month Software Engineering Trainee at
+              Optimum Futurist where I am learning about the whole lifecycle of
+              Software Development process."
+          />
         </div>
       </div>
-    <Footer />
+      <Footer />
     </div>
   );
 };

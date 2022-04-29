@@ -75,9 +75,11 @@
 .submit{
     color: white;
     background-color: rgba(86, 9, 56, 0.836);
+    /* background-color: rgba(142, 61, 217, 0.896); */
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) { */
+@media screen and (max-width: 823px) {
     .contactme{
         display: flex;
         flex-direction: column;
@@ -102,6 +104,13 @@
     .rightDiv{
         margin-right: 0px;
     }
+    .rightDiv div h4{
+        margin-top: 2rem;
+    }
+    .form{
+        margin:1rem 3rem ;
+    }
+ 
     .form input{
         width:80%;
         height: 6vh;
@@ -109,7 +118,8 @@
     .form textarea{
         width:80%;
         height: 10vh;
-      
-    
+    }
+    .submit{
+      background-color: rgba(121, 71, 168, 0.785);
     }
 }

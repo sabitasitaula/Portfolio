@@ -50,6 +50,7 @@ main{
   position: absolute;
   bottom:2.5rem;
   right: 18rem;
+  z-index: 2;
 }
 .bannerIcon i {
   color:white;

@@ -4,8 +4,10 @@
 ## Packages Used
 ```
     *react-router-dom
-    *typewriter-effect
     *axios
+    *typewriter-effect
+    *react-toastify
+
 ```
 # Getting Started
 *Clone down this repository. You will need node.js and git installed globally on your machine.
