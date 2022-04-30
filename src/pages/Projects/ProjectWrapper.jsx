@@ -8,7 +8,7 @@ const ProjectWrapper = () => {
       <div>
         <section id="projects">
             <h1>My Projects</h1>
-            <div class="myproject">
+            <div className="myproject">
                 <Project />
                 <Footer />
             </div>

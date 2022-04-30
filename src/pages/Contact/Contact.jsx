@@ -24,7 +24,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormErrors(validate(formValues));
-    console.log(formErrors)
+    // console.log(formErrors)
     if (Object.keys(formErrors).length === 0) {
       axios
         .post("http://localhost:4000/contact/", {

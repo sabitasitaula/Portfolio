@@ -22,8 +22,8 @@ const Project = () => {
   return (
     <>
       {isLoading && (
-        <div class="spinner-border text-primary " role="status">
-          <span class="visually-hidden">Loading...</span>
+        <div className="spinner-border text-primary " role="status">
+          <span className="visually-hidden">Loading...</span>
         </div>
       )}
       {!isLoading &&
@@ -31,6 +31,7 @@ const Project = () => {
           return (
             <Card
               // imageUrl={github}
+              key={index}
               imageUrl={
                 index % 2 === 0 ? git1 : git
               }

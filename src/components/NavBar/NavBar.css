@@ -31,6 +31,13 @@ nav a {
 .menubar {
   display: none;
 }
+.HomePageDiv nav h3 i a{
+  margin: 0;
+  padding: 0;
+}
+.HomePageDiv nav h3 i a:hover{
+ color:#8373dc; ;
+}
 @media screen and (max-width: 768px) {
   .navLinks {
     display: none;
@@ -46,6 +53,10 @@ nav a {
   }
   .fa-scribd {
     color: white;
+  }
+  .HomePageDiv nav h3 i a{
+    margin: 0;
+    padding: 0;
   }
   .HomePageDiv nav {
     margin: 0;

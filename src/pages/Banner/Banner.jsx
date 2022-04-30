@@ -41,13 +41,13 @@ const Banner = () => {
         <div className="content">
           <h1>Sabita</h1>
           <h1>Sitaula </h1>
-          <p>
+          <div>
             Hi, I am a
-            <span>
+            <div>
               <Type />
-            </span>
+            </div>
             lives in Kathmandu, Nepal.
-          </p>
+          </div>
 
           <button className="hireMeButton" onClick={() => navigate("/contact")}>
             Hire Me

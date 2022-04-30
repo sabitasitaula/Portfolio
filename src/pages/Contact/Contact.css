@@ -44,13 +44,14 @@
     /* background-color: rgba(196, 146, 177, 0.248); */
     background-color:rgba(185, 158, 211, 0.367);
     padding-bottom: 25px;
-    border-radius: 35px;
+    border-radius: 25px;
+    padding-top: 0.6rem;
 }
 
 .form input{
     width:45%;
     height: 6vh;
-    border-radius: 15px;
+    border-radius: 12px;
     border-style: hidden;
     text-align: center;
     margin-top: 15px;
@@ -108,7 +109,7 @@
         margin-top: 2rem;
     }
     .form{
-        margin:1rem 3rem ;
+        margin:1rem 1.5rem ;
     }
  
     .form input{

@@ -3,11 +3,11 @@ import React from "react";
 const Accordion = ({ header1, description1, header2, description2 }) => {
   return (
     <div>
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
+      <div className="accordion" id="accordionExample">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingOne">
             <button
-              class="accordion-button"
+              name="accordion-button"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
@@ -19,16 +19,16 @@ const Accordion = ({ header1, description1, header2, description2 }) => {
           </h2>
           <div
             id="collapseOne"
-            class="accordion-collapse collapse show"
+            className="accordion-collapse collapse show"
             aria-labelledby="headingOne"
           >
-            <div class="accordion-body">{description1}</div>
+            <div className="accordion-body">{description1}</div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwo">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
@@ -40,10 +40,10 @@ const Accordion = ({ header1, description1, header2, description2 }) => {
           </h2>
           <div
             id="collapseTwo"
-            class="accordion-collapse collapse show"
+            className="accordion-collapse collapse show"
             aria-labelledby="headingTwo"
           >
-            <div class="accordion-body">{description2}</div>
+            <div className="accordion-body">{description2}</div>
           </div>
         </div>
       </div>

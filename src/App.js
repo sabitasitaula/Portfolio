@@ -10,7 +10,7 @@ function App() {
         <NavBar />
         <Routes>
           {Router.map((route) => (
-            <Route path={route.path} element={<route.element />} />
+            <Route path={route.path} key={route.path} element={<route.element />} />
           ))}
           {/* <Route path="/" element={<Banner />} />
           <Route path="/project" element={<ProjectWrapper />} />

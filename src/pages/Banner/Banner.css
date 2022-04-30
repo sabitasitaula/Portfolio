@@ -71,14 +71,14 @@ main{
     color: #120946;
   }
   
-  .content p {
-    margin: 30px auto;
+  .content div {
+    margin: 8px auto;
     color: #453e6c;
     font-size: 20px;
   }
 
-  .content p span {
-    margin: 30px auto;
+  .content div div {
+    margin: 3px auto;
     color: #6e72f2de;
     font-size: 18px;
     font-weight: bold;
@@ -125,12 +125,12 @@ main{
     color: #453e6c;
     
   }
-  .content p{
+  .content div{
     font-size: 6vw;
     text-align: center;
 
   }
-  .content p span {
+  .content div div {
     font-size: 6vw;
     text-align: center;
   }
@@ -172,12 +172,12 @@ main{
   .content h1{
     font-size: 4rem;
   }
-  .content p{
+  .content div{
     font-size: 2rem;
     margin-top: 3rem;
   }
-  .content p span{
-    font-size: 2.4rem;
+  .content div div{
+    font-size: 2.2rem;
   }
   .hireMeButton{
     font-size: 2rem;

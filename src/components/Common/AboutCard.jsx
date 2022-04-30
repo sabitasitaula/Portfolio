@@ -5,22 +5,22 @@ const AboutCard = ({id, header, title, text, link}) => {
       <div>
           <div className="education">
             <div className="mbmLogo" id={id}></div>
-            <div class="card">
-              <div class="card-header" >
+            <div className="card">
+              <div className="card-header" >
                 <h1>{header}</h1>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">
+              <div className="card-body">
+                <h5 className="card-title">
                 {title}
                 </h5>
-                <p class="card-text">
+                <p className="card-text">
                   {text} 
                 </p>
                 <a
                   href={link}
                   target="_blank"
                   rel="noreferrer"
-                  class="btn btn-primary"
+                  className="btn btn-primary"
                 >
                   Visit Website
                 </a>
