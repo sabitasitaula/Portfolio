@@ -17,14 +17,14 @@ const Banner = () => {
         </div>
         <div className="bannerIcon">
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/sabita_sitaula/"
               target="_blank"
               rel="noreferrer"
             >
               <Icon icon="fab fa-instagram" />
             </a>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/sabita.sitaula.79"
               target="_blank"
               rel="noreferrer"
             >

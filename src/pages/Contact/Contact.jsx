@@ -27,7 +27,7 @@ function Contact() {
     // console.log(formErrors)
     if (Object.keys(formErrors).length === 0) {
       axios
-        .post("http://localhost:4000/contact/", {
+        .post("https://immense-tor-87617.herokuapp.com/contact/", {
           fullName: formValues.fullName,
           email: formValues.email,
           message: formValues.textarea,

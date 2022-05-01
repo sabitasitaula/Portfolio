@@ -13,7 +13,7 @@ const Project = () => {
     setIsLoading(true);
     axios
       // .get("https://api.github.com/users/sabitasitaula/repos?per_page=6")
-      .get("http://localhost:4000/project/6")
+      .get("https://immense-tor-87617.herokuapp.com/project/6")
       .then((res) => {
         setIsLoading(false);
         setProject(res.data);

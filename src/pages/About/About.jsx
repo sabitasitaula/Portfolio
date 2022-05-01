@@ -12,24 +12,32 @@ const About = () => {
         <div className="aboutImage"></div>
         <h1>About Me</h1>
         <p>
-          I am Sabita Sitaula originally from Jhapa, currently living in
+          I am Sabita Sitaula, originally from Jhapa, and currently living in
           Kathmandu, Nepal. I am currently working as a Software Engineer
-          Trainee and is always interested in a challenge.
+          Trainee and I am always interested in a new challenges.
         </p>
         <p>
-          I love my work and enjoy each new project as I get it. Feel free to
+          I love my work and enjoy new projects. Feel free to
           have a look at my portfolio and don't hesitate to contact me if you
-          think I can be serve you.
+          think I can help you.
           <br />
           <span>Thanks for stopping by.</span>
         </p>
       </div>
 
       <div className="aboutIcon">
-        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.instagram.com/sabita_sitaula/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Icon icon="fab fa-instagram" />
         </a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.facebook.com/sabita.sitaula.79"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Icon icon="fab fa-facebook" />
         </a>
         <a
