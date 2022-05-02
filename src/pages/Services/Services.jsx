@@ -1,8 +1,8 @@
 import React from "react";
 import "./Services.css";
-import frontEnd from "../../assets/images/front.png";
-import backEnd from "../../assets/images/backend.png";
-import uI from "../../assets/images/ui.png";
+import frontEnd from "../../assets/images/frontend2.png";
+import backEnd from "../../assets/images/backend2.png";
+import uI from "../../assets/images/ux1.png";
 import Footer from "../Footer/Footer";
 
 const Services = () => {

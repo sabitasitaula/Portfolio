@@ -12,14 +12,10 @@ const About = () => {
         <div className="aboutImage"></div>
         <h1>About Me</h1>
         <p>
-          I am Sabita Sitaula, originally from Jhapa, and currently living in
-          Kathmandu, Nepal. I am currently working as a Software Engineer
-          Trainee and I am always interested in a new challenges.
+          Namaste 🙏, I am Sabita Sitaula, Bsc. CSIT student from Madan Bhandari Memorial College and I am currently engaged at Optimum Futurist as a   Software Engineer Trainee. 
         </p>
         <p>
-          I love my work and enjoy new projects. Feel free to
-          have a look at my portfolio and don't hesitate to contact me if you
-          think I can help you.
+          I enjoy taking complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strieve to write elegant and efficient code.
           <br />
           <span>Thanks for stopping by.</span>
         </p>
