@@ -12,10 +12,10 @@ const About = () => {
         <div className="aboutImage"></div>
         <h1>About Me</h1>
         <p>
-          Namaste 🙏, I am Sabita Sitaula, Bsc. CSIT student from Madan Bhandari Memorial College and I am currently engaged at Optimum Futurist as a   Software Engineer Trainee. 
+          Namaste 🙏, I am Sabita Sitaula, Bsc. CSIT student from Madan Bhandari Memorial College and I am currently involved at Optimum Futurist as a   Software Engineer Trainee. 
         </p>
         <p>
-          I enjoy taking complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strieve to write elegant and efficient code.
+          I enjoy having complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strieve to write elegant and efficient code.
           <br />
           <span>Thanks for stopping by.</span>
         </p>

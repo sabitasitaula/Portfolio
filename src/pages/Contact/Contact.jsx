@@ -4,15 +4,16 @@ import Icon from "../../components/Common/Icon";
 import Input from "../../components/Common/Input";
 import TextArea from "../../components/Common/TextArea";
 import "./Contact.css";
-import axios from "axios";
 import Footer from "../Footer/Footer";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { usePostContactMutation } from "../../services/contactApi";
 
 function Contact() {
   const initialValues = { fullName: "", email: "", textarea: "" };
   const [formValues, setFormValues] = useState(initialValues);
   const [formErrors, setFormErrors] = useState({});
+  const [postContact] = usePostContactMutation();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -21,22 +22,16 @@ function Contact() {
   const checkValidate = () => {
     setFormErrors(validate(formValues));
   };
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setFormErrors(validate(formValues));
-    // console.log(formErrors)
-    if (Object.keys(formErrors).length === 0) {
-      axios
-        .post("https://immense-tor-87617.herokuapp.com/contact/", {
-          fullName: formValues.fullName,
-          email: formValues.email,
-          message: formValues.textarea,
-        })
-        .then((res) => toast('Message send success'))
-        // .then((res) => console.log(res))
-        .catch((err) => console.log(err));
-      setFormValues(initialValues);
-    }
+
+    const forgot = await postContact({
+      fullName: formValues.fullName,
+      email: formValues.email,
+      message: formValues.textarea,
+    });
+    forgot.data && toast("Message send success")
   };
   const validate = (values) => {
     const errors = {};
@@ -122,14 +117,9 @@ function Contact() {
               />
               <p>{formErrors.textarea}</p>
 
-              <Button
-                type="submit"
-                value="Send"
-                className="submit"
-                
-              />
+              <Button type="submit" value="Send" className="submit" />
 
-             <ToastContainer></ToastContainer>
+              <ToastContainer></ToastContainer>
             </form>
           </div>
         </div>
