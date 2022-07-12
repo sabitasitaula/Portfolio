@@ -12,10 +12,13 @@ const About = () => {
         <div className="aboutImage"></div>
         <h1>About Me</h1>
         <p>
-          Namaste 🙏, I am Sabita Sitaula, Bsc. CSIT student from Madan Bhandari Memorial College and I am currently involved at Optimum Futurist as a   Software Engineer Trainee. 
+          Namaste 🙏, I am Sabita Sitaula, Bsc. CSIT student from Madan Bhandari
+          Memorial College and I am seeking a position as a front-end developer.
         </p>
         <p>
-          I enjoy having complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strieve to write elegant and efficient code.
+          I enjoy having complex problems and turning them into simple and
+          beautiful interface designs. I also love the logic and structure of
+          coding and always strieve to write elegant and efficient code.
           <br />
           <span>Thanks for stopping by.</span>
         </p>
@@ -84,7 +87,7 @@ const About = () => {
         <div className="accordionClass">
           <Accordion
             header1="Sarobar Technology Pvt. Ltd."
-            description1="I have done 3 monthReact Developer Internship at Sarobar
+            description1="I have done 3 month React Developer Internship at Sarobar
               Technology Pvt. Ltd. where I am involved in customer dashboard of
               logistics management system (React Js) and designed and developed
               user interface using material UI. This application has customer
@@ -92,9 +95,9 @@ const About = () => {
               backend API using axios and Embedded navigation using react router
               DOM."
             header2="Optimum Futurist"
-            description2="I am currently doing 3 month Software Engineering Trainee at
-              Optimum Futurist where I am learning about the whole lifecycle of
-              Software Development process."
+            description2="I have done 3 month Software Engineering Trainee at
+              Optimum Futurist where I learned about the whole lifecycle of
+              Software Development process. In 3 month of period, I have Designed and Developed personal portfolio using MERN stack, Developed E-commerce site that sells Dumplings using MERN stack, Developed HR and Event management system that handles all the information related to employees and manages the events that occurs in the organization using MERN stack and Developed React-Native E-commerce mobile application that sells Dumplings"
           />
         </div>
       </div>
