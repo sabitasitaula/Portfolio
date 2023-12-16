@@ -12,13 +12,16 @@ const About = () => {
         <div className="aboutImage"></div>
         <h1>About Me</h1>
         <p>
-          Namaste 🙏, I am Sabita Sitaula, Bsc. CSIT student from Madan Bhandari
-          Memorial College and I am seeking a position as a front-end developer.
+          Namaste 🙏, I am Sabita Sitaula, a proud graduate with a Bachelor's
+          degree in Computer Science and Information Technology (Bsc. CSIT) from
+          Madan Bhandari Memorial College with approximately 1.5 years of
+          valuable experience as a Software Engineer.
         </p>
         <p>
-          I enjoy having complex problems and turning them into simple and
-          beautiful interface designs. I also love the logic and structure of
-          coding and always strieve to write elegant and efficient code.
+          I find joy in transforming intricate problems into elegant,
+          user-friendly designs. My passion lies in crafting logical and
+          efficient code, and I'm excited to share my journey and skills through
+          my portfolio.
           <br />
           <span>Thanks for stopping by.</span>
         </p>
@@ -62,21 +65,21 @@ const About = () => {
             id="mbmLogo"
             header="Madan Bhandari Memorial College"
             title="Bachelor in Computer science and information technology"
-            text="I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc."
+            text="I have completed my bachelor's degree from Tribhuvan University in 2021 A.D. with aggregate of 80.12%. "
             link="https://www.mbmc.edu.np/"
           />
           <AboutCard
             id="nobelLogo"
             header="Nobel Academy H.S. School"
             title="+2 SCIENCE"
-            text="I have completed +2 science with Biology as major and Math as optional subject in 2073 B.S."
+            text="I have completed +2 science with Biology as major and Math as optional subject in 2016 A.D."
             link="https://nobel.edu.np/"
           />
           <AboutCard
             id="saraswatiLogo"
             header="Shree Saraswati Secondary School"
             title="SCHOOL LEAVING CERTIFICATE"
-            text="I have completed my primary education from Shree Saraswati Secondary School in 2070 B.S."
+            text="I have completed my primary education from Shree Saraswati Secondary School in 2014 A.D."
             link="https://www.facebook.com/Saraswati-Secondary-School-Kamal-7-Jhapa-795812697486947"
           />
         </div>
@@ -97,7 +100,9 @@ const About = () => {
             header2="Optimum Futurist"
             description2="I have done 3 month Software Engineering Trainee at
               Optimum Futurist where I learned about the whole lifecycle of
-              Software Development process. In 3 month of period, I have Designed and Developed personal portfolio using MERN stack, Developed E-commerce site that sells Dumplings using MERN stack, Developed HR and Event management system that handles all the information related to employees and manages the events that occurs in the organization using MERN stack and Developed React-Native E-commerce mobile application that sells Dumplings"
+              Software Development process. In 3 month of period, I have Designed and Developed personal portfolio using MERN stack, Developed E-commerce site that sells Dumplings using MERN stack, Developed HR and Event management system that handles all the information related to employees and manages the events that occurs in the organization using MERN stack and Developed React-Native E-commerce mobile application that sells Dumplings."
+            header3="Nimble Clinical Research"
+            description3="Over the past 15 months, I've been dedicated to Nimble Clinical Research as a Software Engineer. In this role, I have honed the ability to translate client requirements into tailored software features, emphasizing simplicity and user-friendliness. Leveraging advanced technologies such as Redux, TypeScript, and React Js, I have adeptly collaborated with backend engineers, SAS, and R Programmers to integrate seamless Rest APIs. My commitment to quality assurance is underscored by my implementation of comprehensive unit testing and automation testing processes, aimed at identifying and resolving issues efficiently. This experience has not only fortified my technical skill set but also deepened my understanding of delivering client-centric solutions in the realm of software development."
           />
         </div>
       </div>

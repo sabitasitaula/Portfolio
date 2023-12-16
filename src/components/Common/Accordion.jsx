@@ -1,6 +1,6 @@
 import React from "react";
 
-const Accordion = ({ header1, description1, header2, description2 }) => {
+const Accordion = ({ header1, description1, header2, description2, header3, description3 }) => {
   return (
     <div>
       <div className="accordion" id="accordionExample">
@@ -30,11 +30,11 @@ const Accordion = ({ header1, description1, header2, description2 }) => {
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingTwo">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button "
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
-              aria-expanded="false"
+              aria-expanded="true"
               aria-controls="collapseTwo"
             >
               <strong className="companyName">{header2}</strong>
@@ -47,6 +47,30 @@ const Accordion = ({ header1, description1, header2, description2 }) => {
           >
             <div className="accordion-body" style={{ textAlign: "left" }}>
               {description2}
+            </div>
+          </div>
+        </div>
+
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingThree">
+            <button
+              className="accordion-button "
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <strong className="companyName">{header3}</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            className="accordion-collapse collapse show"
+            aria-labelledby="headingThree"
+          >
+            <div className="accordion-body" style={{ textAlign: "left" }}>
+              {description3}
             </div>
           </div>
         </div>
