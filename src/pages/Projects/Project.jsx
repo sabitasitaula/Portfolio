@@ -8,7 +8,7 @@ import { useGetProjectsQuery } from "../../services/projectsApi";
 const Project = () => {
   const [isLoadings, setIsLoadings] = useState(false);
   const { data, error, isSuccess, isError } = useGetProjectsQuery();
-
+  
   useEffect(() => {
     setIsLoadings(true);
   }, []);

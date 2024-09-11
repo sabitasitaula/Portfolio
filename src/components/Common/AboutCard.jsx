@@ -13,7 +13,7 @@ const AboutCard = ({id, header, title, text, link}) => {
                 <h5 className="card-title">
                 {title}
                 </h5>
-                <p className="card-text">
+                <p className="card-text" style={{maxWidth:'660px'}}>
                   {text} 
                 </p>
                 <a

@@ -55,16 +55,16 @@ const NavBar = () => {
               About
             </Link>
             <Link
-              to="/services"
-              className={activeLink === "/services" ? "active" : null}
+              to="/skills"
+              className={activeLink === "/skills" ? "active" : null}
               onClick={() => {
                 toggleMenuBar();
-                activeLinkSet("/services");
+                activeLinkSet("/skills");
               }}
             >
-              Services
+              Skills
             </Link>
-            <Link
+            {/* <Link
               to="/project"
               className={activeLink === "/project" ? "active" : null}
               onClick={() => {
@@ -73,7 +73,7 @@ const NavBar = () => {
               }}
             >
               Projects
-            </Link>
+            </Link> */}
             <Link
               to="/contact"
               className={activeLink === "/contact" ? "active" : null}

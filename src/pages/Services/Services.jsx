@@ -8,7 +8,7 @@ import Footer from "../Footer/Footer";
 const Services = () => {
   return (
     <div className="servicePage">
-      <h1 className="myService">My Services</h1>
+      <h1 className="myService">My Skills</h1>
       <div className="serviceDiv">
         <div className="frontEndDiv">
           <img src={frontEnd} alt="frontEnd" />

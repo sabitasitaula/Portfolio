@@ -22,7 +22,7 @@ const Accordion = ({ header1, description1, header2, description2, header3, desc
             className="accordion-collapse collapse show"
             aria-labelledby="headingOne"
           >
-            <div className="accordion-body" style={{ textAlign: "left" }}>
+            <div className="accordion-body" style={{ textAlign: "justify" }}>
               {description1}
             </div>
           </div>
@@ -45,7 +45,7 @@ const Accordion = ({ header1, description1, header2, description2, header3, desc
             className="accordion-collapse collapse show"
             aria-labelledby="headingTwo"
           >
-            <div className="accordion-body" style={{ textAlign: "left" }}>
+            <div className="accordion-body" style={{ textAlign: "justify" }}>
               {description2}
             </div>
           </div>
@@ -69,7 +69,7 @@ const Accordion = ({ header1, description1, header2, description2, header3, desc
             className="accordion-collapse collapse show"
             aria-labelledby="headingThree"
           >
-            <div className="accordion-body" style={{ textAlign: "left" }}>
+            <div className="accordion-body" style={{ textAlign: "justify" }}>
               {description3}
             </div>
           </div>

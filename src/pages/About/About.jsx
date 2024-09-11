@@ -14,7 +14,7 @@ const About = () => {
         <p>
           Namaste 🙏, I am Sabita Sitaula, a proud graduate with a Bachelor's
           degree in Computer Science and Information Technology (Bsc. CSIT) from
-          Madan Bhandari Memorial College with approximately 1.5 years of
+          Madan Bhandari Memorial College with approximately 3 years of
           valuable experience as a Software Engineer.
         </p>
         <p>
@@ -89,21 +89,42 @@ const About = () => {
         <h1>Experience</h1>
         <div className="accordionClass">
           <Accordion
-            header1="Sarobar Technology Pvt. Ltd."
-            description1="I have done 3 month React Developer Internship at Sarobar
+            header1="Nimble Clinical Research"
+            description1="Over the past 2 years, I've been dedicated to Nimble Clinical Research as a Software Engineer. In this role, I have honed the ability to translate client requirements into tailored software features, emphasizing simplicity and user-friendliness. Leveraging advanced technologies such as Redux, TypeScript, and React Js, I have adeptly collaborated with backend engineers, SAS, and R Programmers to integrate seamless Rest APIs. My commitment to quality assurance is underscored by my implementation of comprehensive unit testing and automation testing processes, aimed at identifying and resolving issues efficiently. This experience has not only fortified my technical skill set but also deepened my understanding of delivering client-centric solutions in the realm of software development."
+            header2="Optimum Futurist"
+            description2="I have done 3 month Software Engineering Trainee at
+              Optimum Futurist where I learned about the whole lifecycle of
+              Software Development process. In 3 month of period, I have Designed and Developed personal portfolio using MERN stack, Developed E-commerce site that sells Dumplings using MERN stack, Developed HR and Event management system that handles all the information related to employees and manages the events that occurs in the organization using MERN stack and Developed React-Native E-commerce mobile application that sells Dumplings."
+            header3="Sarobar Technology Pvt. Ltd."
+            description3="I have done 3 month React Developer Internship at Sarobar
               Technology Pvt. Ltd. where I am involved in customer dashboard of
               logistics management system (React Js) and designed and developed
               user interface using material UI. This application has customer
               authentication using JWT token. We had Fetched and posted data to
               backend API using axios and Embedded navigation using react router
               DOM."
-            header2="Optimum Futurist"
-            description2="I have done 3 month Software Engineering Trainee at
-              Optimum Futurist where I learned about the whole lifecycle of
-              Software Development process. In 3 month of period, I have Designed and Developed personal portfolio using MERN stack, Developed E-commerce site that sells Dumplings using MERN stack, Developed HR and Event management system that handles all the information related to employees and manages the events that occurs in the organization using MERN stack and Developed React-Native E-commerce mobile application that sells Dumplings."
-            header3="Nimble Clinical Research"
-            description3="Over the past 15 months, I've been dedicated to Nimble Clinical Research as a Software Engineer. In this role, I have honed the ability to translate client requirements into tailored software features, emphasizing simplicity and user-friendliness. Leveraging advanced technologies such as Redux, TypeScript, and React Js, I have adeptly collaborated with backend engineers, SAS, and R Programmers to integrate seamless Rest APIs. My commitment to quality assurance is underscored by my implementation of comprehensive unit testing and automation testing processes, aimed at identifying and resolving issues efficiently. This experience has not only fortified my technical skill set but also deepened my understanding of delivering client-centric solutions in the realm of software development."
           />
+        </div>
+      </div>
+
+      <div className="awardsClass">
+        <div className="awardsIcon">
+          <Icon icon="fa fa-trophy" />
+          <h1>Awards</h1>
+        </div>
+        <div className="awards-wrapper">
+          <div className="awards-list">
+            <div>
+              <h5>Employee of the Quarter</h5>
+              <small>Nimble Clinical Research</small>
+            </div>
+            <div className="verticalLine"></div>
+            <hr/>
+            <div>
+              <h5>Best Performer of the Month</h5>
+              <small>Optimum Futurist</small>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />

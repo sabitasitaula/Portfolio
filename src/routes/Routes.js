@@ -22,7 +22,7 @@ const Routes = [
     element: About,
   },
   {
-    path: "/services",
+    path: "/skills",
     element: Services,
   },
 

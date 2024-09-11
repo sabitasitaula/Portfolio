@@ -2,3 +2,8 @@
     text-align: center;
     padding: 1.5rem 2rem;
 }
+@media screen and (min-width: 823px) {
+   .footerClass hr{
+    display: none;
+   } 
+}
